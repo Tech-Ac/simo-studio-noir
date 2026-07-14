@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background:#0A0A0A; color:#fff; scroll-behavior:smooth }
+body { font-feature-settings:"ss01","ss02"; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility }
+::selection { background:#fff; color:#000 }
+.grid-line { border-color:#1F1F1F }
+.focus-ring:focus-visible { outline:1px solid #fff; outline-offset:4px }
