@@ -2,7 +2,7 @@
 export type Lang = 'en' | 'fr' | 'ar';
 export const translations = {
   en: {
-    nav_work: 'Work', nav_services: 'Services', nav_about: 'About', nav_journal: 'Journal', nav_contact: 'Contact', cta: 'Start a Project',
+    nav_home: 'Home', nav_work: 'Work', nav_services: 'Services', nav_process: 'Process', nav_about: 'About', nav_journal: 'Journal', nav_contact: 'Contact', cta: 'Start a Project',
     hero_line1: 'I design brands', hero_line2: 'people remember.',
     hero_sub: 'Brand Identity, Restaurant & Packaging Design for ambitious businesses in Morocco and beyond. Strategy first. Aesthetics that convert.',
     hero_primary: 'View Work', hero_secondary: 'Start a Project',
@@ -19,10 +19,16 @@ export const translations = {
     testimonial: '"Simo transformed our restaurant brand. Reservations up 62% in 2 months. He thinks like an owner, not just a designer."',
     contact_title: 'Let’s talk', contact_sub: 'Tell me about your project. I reply within 6 hours.',
     form_name: 'Name', form_email: 'Email', form_company: 'Company', form_budget: 'Budget', form_timeline: 'Timeline', form_message: 'Project details', form_send: 'Send inquiry',
-    footer_rights: '© 2026 SIMO Studio. Bouskoura, Morocco. Crafted with precision.'
+    footer_rights: '© 2026 SIMO Studio. Bouskoura, Morocco. Crafted with precision.',
+    work_title: 'Selected Work', work_sub: 'Brand identities crafted to sell, not just to look good. Each project is strategy, system, and craft.',
+    services_title: 'Services designed to make you look expensive', services_sub: 'One studio, complete vision. From strategy to shelf.',
+    process_title: 'A clear process that protects quality', process_sub: 'No chaos. Every step has a purpose and a deliverable.',
+    about_title: 'Designer, strategist, craftsman', about_sub: 'Based in Morocco. Working worldwide.',
+    journal_title: 'Journal', journal_sub: 'Thoughts on branding, restaurants, and building taste-driven businesses.',
+    contact_page_title: 'Start something memorable', contact_page_sub: 'Tell me about your vision. I will map the path.',
   },
   fr: {
-    nav_work: 'Projets', nav_services: 'Services', nav_about: 'À propos', nav_journal: 'Journal', nav_contact: 'Contact', cta: 'Démarrer un projet',
+    nav_home: 'Accueil', nav_work: 'Projets', nav_services: 'Services', nav_process: 'Processus', nav_about: 'À propos', nav_journal: 'Journal', nav_contact: 'Contact', cta: 'Démarrer un projet',
     hero_line1: 'Je conçois des marques', hero_line2: 'dont on se souvient.',
     hero_sub: 'Identité de marque, branding restaurant et packaging pour entreprises ambitieuses au Maroc et à l’international. Stratégie d’abord. Esthétique qui convertit.',
     hero_primary: 'Voir les projets', hero_secondary: 'Démarrer un projet',
@@ -39,10 +45,16 @@ export const translations = {
     testimonial: '"Simo a transformé notre marque. +62% de réservations en 2 mois. Il pense comme un propriétaire, pas juste un designer."',
     contact_title: 'Parlons-en', contact_sub: 'Parlez-moi de votre projet. Réponse sous 6h.',
     form_name: 'Nom', form_email: 'Email', form_company: 'Société', form_budget: 'Budget', form_timeline: 'Délai', form_message: 'Détails du projet', form_send: 'Envoyer',
-    footer_rights: '© 2026 SIMO Studio. Bouskoura, Maroc. Conçu avec précision.'
+    footer_rights: '© 2026 SIMO Studio. Bouskoura, Maroc. Conçu avec précision.',
+    work_title: 'Projets Sélectionnés', work_sub: 'Des identités conçues pour vendre, pas juste pour plaire.',
+    services_title: 'Des services pour paraître premium', services_sub: 'Un studio, une vision complète.',
+    process_title: 'Un processus clair qui protège la qualité', process_sub: 'Chaque étape a un livrable précis.',
+    about_title: 'Designer, stratège, artisan', about_sub: 'Basé au Maroc. Actif à l’international.',
+    journal_title: 'Journal', journal_sub: 'Réflexions sur le branding et la restauration.',
+    contact_page_title: 'Lancez quelque chose de mémorable', contact_page_sub: 'Parlez-moi de votre vision.',
   },
   ar: {
-    nav_work: 'أعمالي', nav_services: 'الخدمات', nav_about: 'من أنا', nav_journal: 'المدونة', nav_contact: 'تواصل', cta: 'ابدأ مشروعك',
+    nav_home: 'الرئيسية', nav_work: 'أعمالي', nav_services: 'الخدمات', nav_process: 'المنهجية', nav_about: 'من أنا', nav_journal: 'المدونة', nav_contact: 'تواصل', cta: 'ابدأ مشروعك',
     hero_line1: 'أصمم علامات', hero_line2: 'لا تُنسى.',
     hero_sub: 'هوية بصرية، علامات مطاعم وتغليف للشركات الطموحة في المغرب وخارجه. الاستراتيجية أولاً. جمال يحوّل الزوار لعملاء.',
     hero_primary: 'شاهد الأعمال', hero_secondary: 'ابدأ مشروعك',
@@ -59,6 +71,12 @@ export const translations = {
     testimonial: '"سيمو حوّل علامة مطعمنا. الحجوزات ارتفعت 62٪ خلال شهرين. يفكر كصاحب مشروع وليس كمصمم فقط."',
     contact_title: 'لنتحدث', contact_sub: 'احكِ لي عن مشروعك. أرد خلال 6 ساعات.',
     form_name: 'الاسم', form_email: 'البريد', form_company: 'الشركة', form_budget: 'الميزانية', form_timeline: 'المدة', form_message: 'تفاصيل المشروع', form_send: 'إرسال',
-    footer_rights: '© 2026 استوديو سيمو. بوسكورة، المغرب. صُنع بدقة.'
+    footer_rights: '© 2026 استوديو سيمو. بوسكورة، المغرب. صُنع بدقة.',
+    work_title: 'أعمال مختارة', work_sub: 'هويات صممت لتبيع، ليس فقط لتبدو جميلة.',
+    services_title: 'خدمات تجعلك تبدو فاخراً', services_sub: 'استوديو واحد، رؤية متكاملة.',
+    process_title: 'منهجية واضحة تحمي الجودة', process_sub: 'لا فوضى. كل خطوة لها هدف.',
+    about_title: 'مصمم، استراتيجي، حرفي', about_sub: 'من المغرب. أعمل عالمياً.',
+    journal_title: 'المدونة', journal_sub: 'أفكار حول العلامات والمطاعم.',
+    contact_page_title: 'ابدأ شيئاً لا يُنسى', contact_page_sub: 'احكِ لي عن رؤيتك.',
   }
 } as const;
